@@ -13,7 +13,7 @@ const CardOfferings = (props) => {
           <Card.Body>
             <Card.Title className='text-danger fw-bold'>Name : {name}</Card.Title>
             <Card.Text>Address : {address}</Card.Text>
-            <Card.Text>Person : {offer}</Card.Text>
+            <Card.Text>Offer : {offer}</Card.Text>
             <Card.Text>Price : {price}</Card.Text>
             <Link to={`/placeOrder/${_id}`}><Button>Book Now</Button></Link>
           </Card.Body>

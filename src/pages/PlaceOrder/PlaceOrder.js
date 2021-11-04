@@ -28,9 +28,15 @@ const PlaceOrder = () => {
   },[]);
 // 
   const { register, handleSubmit } = useForm();
-  const onSubmit = data => console.log(data);
-
-  console.log(book)
+  const onSubmit = data => {
+    fetch("http://localhost:5000/bookinginfo",{
+      method:"POST",
+      headers:{"content-type": "application/json"},
+      body: JSON.stringify(data),
+    })
+    .then(res => res.json())
+    .then(result => console.log(result));
+  };
 
   return (
     <div className='Order'>
@@ -39,6 +45,7 @@ const PlaceOrder = () => {
       <Card.Img variant="top" src={photo} />
       <Card.Body>
         <Card.Title>Name: {name}</Card.Title>
+        <Card.Title>Address: {address}</Card.Title>
         <Card.Text>Overview: {Overview}</Card.Text>
         </Card.Body>
         <ListGroup className="list-group-flush">
