@@ -1,0 +1,14 @@
+.services{
+  margin-top: 100px;
+}
+.pageCount{
+  text-align: center;
+}
+.pageCount button{
+  padding: 0 10px;
+  margin: 20px;
+}
+.pageCount .selected{
+  background-color: blue;
+  color: aliceblue;
+}

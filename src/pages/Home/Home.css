@@ -1,0 +1,15 @@
+.About{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+}
+.AboutStyle{
+  padding: 10px;
+  box-shadow: 15px 10px 10px #cbced1, -10px -10px 10px white;
+  margin: 10px;
+  border: 2px red solid;
+}
+.AboutStyle img{
+  border-radius: 50%;
+}

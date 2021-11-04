@@ -1,0 +1,19 @@
+.Order{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.contract{
+}
+.placeOrder{
+  padding: 20px;
+  margin-left: 10px;
+}
+.info{
+  display: flex;
+  flex-direction: column;
+}
+.photoOne{
+  background-color: rgb(68, 60, 60);
+  height: 50px;
+}

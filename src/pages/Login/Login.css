@@ -1,0 +1,18 @@
+.page{
+  height: 100vh;
+  background-color: #ecf0f3;
+}
+.login{
+  background-color: #ecf0f3;
+  width: 400px;
+  height: 550px;
+  border-radius: 15px;
+  box-shadow:10px 10px 10px  #cbced1, -10px -10px 15px white;
+}
+.google{
+  margin-top: 100px;
+  cursor: pointer;
+}
+.google img{
+  width: 80px;
+}
